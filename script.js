@@ -21,7 +21,9 @@ function loadQuestion() {
       optionContainer.appendChild(optionElement);
     });
 }
-
+/* This function is responsible for loading the current question and its options onto the quiz. 
+It retrieves the question and options data from the 'quizData' array and dynamically creates buttons 
+for each option. */
 
 function checkAnswer(e) {
     const selectedOption = e.target;
@@ -39,6 +41,10 @@ function checkAnswer(e) {
       showResults();
     }
 }
+/* This function is triggered when a user selects an answer by clicking on one of the option buttons. 
+It compares the selected answer with the correct answer from the 'quizData' array and updates the score 
+if the answer is correct. It then proceeds to the next question or shows the results if it's the last 
+question. */
 
 function showResults() {
     quizContainer.style.display = 'none';
@@ -57,6 +63,8 @@ function showResults() {
   
     resultContainer.innerHTML = `<h2>Your Score: ${score}</h2><p>${message}</p>`;
 }
+/*  This function hides the quiz container and displays the results container. It determines 
+the appropriate message based on the score and displays it along with the user's final score. */
 
 function startQuiz() {
     startContainer.style.display = 'none';
@@ -64,8 +72,13 @@ function startQuiz() {
   
     loadQuestion();
 }
+/* This function is called when the "Start Quiz" button is clicked. It hides the start container 
+and displays the quiz container. It also initiates the quiz by calling the 'loadQuestion()' function 
+to load the first question. */
 
 startButton.addEventListener('click', startQuiz);
+/* The event listener is attached to the "Start Quiz" button. It listens for a click event and 
+triggers the 'startQuiz()' function when the button is clicked. */
 
 const quizData = [
     {
