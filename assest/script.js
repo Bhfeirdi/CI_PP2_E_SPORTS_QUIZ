@@ -66,3 +66,106 @@ function startQuiz() {
 }
 
 startButton.addEventListener('click', startQuiz);
+
+const quizData = [
+    {
+        question: "Which game is considered the most popular e-sport in the world?",
+        options: ["Dota 2", "League of Legends", "Counter-Strike: Global Offensive", "Overwatch"],
+        answer: 1
+    },
+    {
+        question: "Which country has won the most League of Legends World Championships?",
+        options: ["South Korea", "China", "United States", "Sweden"],
+        answer: 0
+    },
+    {
+        question: "Which game introduced the 'Battle Royale' game mode?",
+        options: ["Fortnite", "PlayerUnknown's Battlegrounds", "Apex Legends", "Call of Duty: Warzone"],
+        answer: 1
+    },
+    {
+        question: "Who is known as 'The Faker' in the League of Legends community?",
+        options: ["Lee 'Faker' Sang-hyeok", "Jang 'MaRin' Gyeong-hwan", "Kim 'Doinb' Tae-sang", "Song 'Rookie' Eui-jin"],
+        answer: 0
+    },
+    {
+        question: "Which organization won the most Dota 2 The International tournaments?",
+        options: ["OG", "Evil Geniuses", "Team Secret", "Virtus.pro"],
+        answer: 0
+    },
+    {
+        question: "Which game was developed by Blizzard Entertainment?",
+        options: ["World of Warcraft", "Fortnite", "Minecraft", "Rocket League"],
+        answer: 0
+    },
+    {
+        question: "Which country is home to the esports organization Fnatic?",
+        options: ["Sweden", "United States", "South Korea", "China"],
+        answer: 0
+    },
+    {
+        question: "Which game is played in a best-of-one format in the competitive scene?",
+        options: ["Valorant", "Rainbow Six Siege", "Rocket League", "Street Fighter V"],
+        answer: 2
+    },
+    {
+        question: "Which player holds the record for the highest career earnings in esports?",
+        options: ["Johan 'N0tail' Sundstein", "Lee 'Faker' Sang-hyeok", "Kyle 'Bugha' Giersdorf", "Kuro 'KuroKy' Salehi Takhasomi"],
+        answer: 0
+    },
+    {
+        question: "Which game was the first to introduce microtransactions?",
+        options: ["Team Fortress 2", "League of Legends", "Counter-Strike: Global Offensive", "World of Warcraft"],
+        answer: 3
+    },
+    {
+        question: "Which city hosted the first Overwatch League Grand Finals?",
+        options: ["New York City", "Seoul", "Los Angeles", "London"],
+        answer: 0
+    },
+    {
+        question: "Which player is considered the 'CS:GO King'?",
+        options: ["Oleksandr 's1mple' Kostyliev", "Marcelo 'coldzera' David", "Andreas 'Xyp9x' Højsleth", "Nicolai 'dev1ce' Reedtz"],
+        answer: 0
+    },
+    {
+        question: "Which game is played with a deck of 30 cards and a hero character?",
+        options: ["Hearthstone", "FIFA", "Mortal Kombat", "Super Smash Bros. Ultimate"],
+        answer: 0
+    },
+    {
+        question: "Which game is known for its annual 'The International' tournament?",
+        options: ["League of Legends", "Dota 2", "Counter-Strike: Global Offensive", "Fortnite"],
+        answer: 1
+    },
+    {
+        question: "Who is the most decorated StarCraft II player of all time?",
+        options: ["Lee 'Flash' Young Ho", "Jang 'MC' Min Chul", "Lee 'Jaedong' Jae Dong", "Park 'Dark' Ryung Woo"],
+        answer: 0
+    },
+    {
+        question: "Which organization won the first-ever Overwatch League season?",
+        options: ["San Francisco Shock", "London Spitfire", "Seoul Dynasty", "New York Excelsior"],
+        answer: 1
+    },
+    {
+        question: "Which game features the 'DreamHack' tournament series?",
+        options: ["Rocket League", "Valorant", "Call of Duty: Warzone", "Counter-Strike: Global Offensive"],
+        answer: 3
+    },
+    {
+        question: "Which player is known for his dominance in the game of Super Smash Bros. Melee?",
+        options: ["Joseph 'Mango' Marquez", "Adam 'Armada' Lindgren", "Juan 'Hungrybox' DeBiedma", "William 'Leffen' Hjelte"],
+        answer: 2
+    },
+    {
+        question: "Which game is the most-played first-person shooter in the world?",
+        options: ["Call of Duty: Warzone", "Rainbow Six Siege", "Counter-Strike: Global Offensive", "Valorant"],
+        answer: 2
+    },
+    {
+        question: "Which organization won the most Call of Duty World Championships?",
+        options: ["OpTic Gaming", "Evil Geniuses", "FaZe Clan", "Team Envy"],
+        answer: 0
+    }
+]
