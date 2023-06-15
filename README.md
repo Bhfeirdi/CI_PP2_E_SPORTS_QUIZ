@@ -60,70 +60,52 @@ Portrait:
 ![Screenshot_20230615_043821_Chrome.jpg](assests/Images/Screenshot_20230615_043821_Chrome.jpg)
 
 Fully Responsive dow to 190px:
-![Screenshot_20230615_043843_Chrome.jpg](assests/Images/Screenshot_20230615_043843_Chrome.jpg)
+![190px.png](assests/Images/190px.png)
 
 
 ### Validator Testing 
 
 - HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+    - One initial error found relating to language [W3C validator]
+    ![html_1.png](assests/Images/html_1.png)
+
+    - Error corrected and no further errors were returned when passing through the official [W3C validator]
+    ![html_2.png](assests/Images/html_2.png)
+
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - No errors were found when passing through the official [(Jigsaw) validator]
+    ![css_1.png](assests/Images/css_1.png)
+
 - JavaScript
-    - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+    - No errors were found when passing through the official [Jshint validator]
       - The following metrics were returned: 
-      - There are 11 functions in this file.
+      - There are 5 functions in this file.
       - Function with the largest signature takes 2 arguments, while the median is 0.
-      - Largest function has 10 statements in it, while the median is 3.
-      - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+      - Largest function has 9 statements in it, while the median is 5.
+      - The most complex function has a cyclomatic complexity value of 7 while the median is 1.
+      ![script_1.png](assests/Images/script_1.png)
+      ![script_2.png](assests/Images/script_2.png)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+In an earlier build of the web app, there was a progress bar that moved across as you answered correctly. Unfortunately I was unable to have it operate correctly
+and stop with the end of the quiz. Ultimately it was scraped in favour of the score counter at the end of the game. You can see an image of it being developed below. 
+![progress_fail.png](assests/Images/progress_fail.png)
 
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
+## Deployment 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-maths/
+The live link can be found here - https://bhfeirdi.github.io/CI_PP2_E_SPORTS_QUIZ/
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+A considerable amount of inspiration for how the quiz would ultimately operate came from "Web Dev Simplified", a Youtube chanel that build various small apps and offers other coding
+tips and tricks. Please find the link to the specific video here: https://www.youtube.com/watch?v=riDzcEQbX6k&t=1198s&ab_channel=WebDevSimplified
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+- All images were gathered by myself on my own machines for the purposes of testing and documentation. No copywrite images were used.
