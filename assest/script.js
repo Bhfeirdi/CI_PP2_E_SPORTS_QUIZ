@@ -20,6 +20,23 @@ function loadQuestion() {
       optionElement.addEventListener('click', checkAnswer);
       optionContainer.appendChild(optionElement);
     });
-  }
+}
 
+
+function checkAnswer(e) {
+    const selectedOption = e.target;
+    const answer = Number(selectedOption.value);
+  
+    if (quizData[currentQuestion].answer === answer) {
+      score++;
+    }
+  
+    currentQuestion++;
+  
+    if (currentQuestion < quizData.length) {
+      loadQuestion();
+    } else {
+      showResults();
+    }
+}
 
