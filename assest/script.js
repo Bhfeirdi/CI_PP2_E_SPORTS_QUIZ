@@ -40,3 +40,20 @@ function checkAnswer(e) {
     }
 }
 
+function showResults() {
+    quizContainer.style.display = 'none';
+    resultContainer.style.display = 'block';
+  
+    let message;
+    if (score <= 10) {
+      message = 'Better luck next time!';
+    } else if (score >= 11 && score <= 15) {
+      message = 'Good work, almost perfect!';
+    } else if (score >= 16 && score <= 19) {
+      message = 'Wow! You really know your stuff!';
+    } else if (score === 20) {
+      message = 'GG WP!';
+    }
+  
+    resultContainer.innerHTML = `<h2>Your Score: ${score}</h2><p>${message}</p>`;
+}
