@@ -72,3 +72,8 @@ body {
     font-size: 24px;
     margin-top: 20px;
   } 
+
+  #result span {
+    color: #ff5722;
+    font-weight: bold;
+  }
