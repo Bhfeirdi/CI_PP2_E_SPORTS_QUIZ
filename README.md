@@ -1,5 +1,5 @@
 # CI_PP2_E_SPORTS_QUIZ
-An interactive E-Sports quiz to showcase some learnings in Javascript
+An interactive E-Sports quiz to showcase some learnings in Javascript. The goal of the site is to provide a challenging quiz to entertain online users.
 
 The E-Sports Quiz is a simple game put together to test your knowledge of the world of E-Sports. A set of 20 questions with multiple choice answers with a tactile response and feel to test
 just how deep in you really are!
@@ -8,7 +8,13 @@ just how deep in you really are!
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Some of the features we wanted to hightlight here include:
+
+A score tracking system
+
+Feedback on result
+
+Tasctile response for the player
 
 ### Existing Features
 
