@@ -67,4 +67,8 @@ body {
     background-color: #1976d2;
   }
 
-  
+  #result {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+  } 
