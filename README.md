@@ -14,7 +14,7 @@ A score tracking system
 
 Feedback on result
 
-Tasctile response for the player
+Tactile response for the player
 
 ### Existing Features
 
@@ -27,16 +27,15 @@ Tasctile response for the player
 
 - __Feedback on result__
 
-  - We also wanted to give feedback on your given score to perhaps encourage you to try again were you not hasppy with the result.
+  - We also wanted to give feedback on your given score to perhaps encourage you to try again were you not hasppy with the result. you can see how the response if built to be different dependind your your result.
 
-![Game](media/love_maths_icons.png)
+![feedback_feature.png](assests/Images/feedback_feature.png)
 
-- __The Question section__
+- __Tactile response for the player__
 
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
+  - We wanted the quiz to feel a little more tacil than simply a checklist. To aid in this we added some colour changed to the multiple choice buttons to help you feel your effecting the game.
 
-![Question](media/love_maths_question.png)
+![Screenshot_20230615_043843_Chrome.jpg](assests/Images/Screenshot_20230615_043843_Chrome.jpg)
 
 - __The Score Area__
 
