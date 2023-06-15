@@ -10,13 +10,11 @@ just how deep in you really are!
 
 Some of the features we wanted to hightlight here include:
 
-A score tracking system
+-A score tracking system
 
-Feedback on result
+-Feedback on result
 
-Tactile response for the player
-
-### Existing Features
+-Tactile response for the player
 
 - __A score tracking system__
 
