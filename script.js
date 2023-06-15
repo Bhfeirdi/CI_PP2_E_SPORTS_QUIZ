@@ -80,6 +80,9 @@ startButton.addEventListener('click', startQuiz);
 /* The event listener is attached to the "Start Quiz" button. It listens for a click event and 
 triggers the 'startQuiz()' function when the button is clicked. */
 
+
+/*               questions array                  */
+
 const quizData = [
     {
         question: "Which game is considered the most popular e-sport in the world?",
