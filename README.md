@@ -35,29 +35,19 @@ Some of the features we wanted to hightlight here include:
 
 ![Screenshot_20230615_043843_Chrome.jpg](assests/Images/Screenshot_20230615_043843_Chrome.jpg)
 
-- __The Score Area__
-
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
-
-![score](media/love_maths_answer.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 
-- Another feature idea
+- I would have liked to include some audio to accompany the quiz at the end along side your result. 
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The quiz was tested on the following browsers and devices:
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Alienware Desktop PC
+Google Chrome:
+![chrome.png](assests/Images/chrome.png)
+Opera:
+![opera.png](assests/Images/opera.png)
 
 
 ### Validator Testing 
