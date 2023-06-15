@@ -18,16 +18,16 @@ Tasctile response for the player
 
 ### Existing Features
 
-- __The Love Maths Logo and Heading__
+- __A score tracking system__
 
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+  - Over a number of iterations, which I'll touch on in bugs, it was settled on a discreat score tracking system that would give your result only at the end of the quiz. The idea
+  being that you could always come back and attempt to beat your score.
 
-![Logo](media/love_maths_logo.png)
+![Screenshot_20230615_043903_Chrome.jpg](assests/Images/Screenshot_20230615_043903_Chrome.jpg)
 
-- __The Game Area__
+- __Feedback on result__
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
+  - We also wanted to give feedback on your given score to perhaps encourage you to try again were you not hasppy with the result.
 
 ![Game](media/love_maths_icons.png)
 
