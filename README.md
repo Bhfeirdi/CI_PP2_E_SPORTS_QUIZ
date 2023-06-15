@@ -4,7 +4,7 @@ An interactive E-Sports quiz to showcase some learnings in Javascript
 The E-Sports Quiz is a simple game put together to test your knowledge of the world of E-Sports. A set of 20 questions with multiple choice answers with a tactile response and feel to test
 just how deep in you really are!
 
-![Responsice](https://github.com/Bhfeirdi/CI_PP2_E_SPORTS_QUIZ/tree/main/assests/Images/responsive_1)
+![responsive_1](assests/Images/responsive_1.png)
 
 ## Features 
 
