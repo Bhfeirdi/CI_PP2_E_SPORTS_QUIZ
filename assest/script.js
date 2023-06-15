@@ -4,3 +4,6 @@ const quizContainer = document.getElementById('quiz-container');
 const questionContainer = document.getElementById('question');
 const optionContainer = document.getElementById('options');
 const resultContainer = document.getElementById('result');
+
+let currentQuestion = 0;
+let score = 0;
