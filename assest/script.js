@@ -65,3 +65,4 @@ function startQuiz() {
     loadQuestion();
 }
 
+startButton.addEventListener('click', startQuiz);
