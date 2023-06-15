@@ -44,10 +44,23 @@ Some of the features we wanted to hightlight here include:
 The quiz was tested on the following browsers and devices:
 
 Alienware Desktop PC
+
 Google Chrome:
 ![chrome.png](assests/Images/chrome.png)
 Opera:
 ![opera.png](assests/Images/opera.png)
+Edge:
+![edge.png](assests/Images/edge.png)
+
+Samsung Galaxy S21 Edge
+
+Landscape:
+![Screenshot_20230615_043843_Chrome.jpg](assests/Images/Screenshot_20230615_043843_Chrome.jpg)
+Portrait:
+![Screenshot_20230615_043821_Chrome.jpg](assests/Images/Screenshot_20230615_043821_Chrome.jpg)
+
+Fully Responsive dow to 190px:
+![Screenshot_20230615_043843_Chrome.jpg](assests/Images/Screenshot_20230615_043843_Chrome.jpg)
 
 
 ### Validator Testing 
