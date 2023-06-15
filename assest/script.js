@@ -57,3 +57,11 @@ function showResults() {
   
     resultContainer.innerHTML = `<h2>Your Score: ${score}</h2><p>${message}</p>`;
 }
+
+function startQuiz() {
+    startContainer.style.display = 'none';
+    quizContainer.style.display = 'block';
+  
+    loadQuestion();
+}
+
